@@ -16,7 +16,8 @@ public class CS1702_Lab7
 		//Q_Mathematical_Functions();
 		//Q_System_Commands();
 		//Q_Random_Numbers();
-		Q_File_Handling();
+		//Q_File_Handling();
+		jar();
 	}
 		public static void Q_Strings()
 		{
@@ -131,5 +132,12 @@ public class CS1702_Lab7
 				   br.close();
 				   readhandle.close();
 				}
+		}
+		
+		public static void jar()
+		{
+			JARExample je = new JARExample();
+
+
 		}
 }
